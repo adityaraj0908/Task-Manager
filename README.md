@@ -26,19 +26,19 @@ This project demonstrates **microservices architecture**, a **clean folder struc
 
 ---
 
-## 📂 Folder Structure (Mandatory)
+## 📂 Folder Structure 
 
 client/
 ├── src/
-│ ├── components/ → Reusable UI (TaskItem, TaskForm)
-│ ├── pages/ → Main Dashboard View
-│ ├── services/ → API & AI logic
-│ └── utils/
+│   ├── components/   → Reusable UI (TaskItem, TaskForm)
+│   ├── pages/        → Main Dashboard View
+│   ├── services/     → API & AI logic
+│   └── utils/
 server/
-├── config/ → Database connection (db.js)
-├── controllers/ → Business logic (taskController.js)
-├── models/ → SQL queries (taskModel.js)
-├── routes/ → API endpoints (taskRoutes.js)
+├── config/           → Database connection (db.js)
+├── controllers/      → Business logic (taskController.js)
+├── models/           → SQL queries (taskModel.js)
+├── routes/           → API endpoints (taskRoutes.js)
 
 
 ---
