@@ -1,4 +1,4 @@
-# 🚀 Full-Stack Task Manager (Internship Assignment)
+# 🚀 Full-Stack Task Manager 
 
 A full-stack task management application built with **React**, **Node.js**, **MySQL**, and **AWS Lambda**.  
 This project demonstrates **microservices architecture**, a **clean folder structure**, and **mock AI integration**.
