@@ -44,29 +44,7 @@ server/
 
 ---
 
-## ⚙️ Setup & Installation
 
-### 1️⃣ Database Setup (MySQL)
-
-```sql
-CREATE DATABASE IF NOT EXISTS task_manager;
-USE task_manager;
-
-CREATE TABLE IF NOT EXISTS tasks (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  title VARCHAR(255) NOT NULL,
-  description TEXT,
-  category VARCHAR(100),
-  priority ENUM('Low', 'Medium', 'High') DEFAULT 'Medium',
-  dueDate DATE,
-  status ENUM('Pending', 'In Progress', 'Completed') DEFAULT 'Pending',
-  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-);
-```
-
-
----
 
 ## ⚙️ Setup & Installation
 
